@@ -1,0 +1,133 @@
+<!-- Code By Jelloul Yoan -->
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Yoan Jelloul - Contact</title>
+		<link rel="icon" type="image/png" href="images/iconbar.png"/>
+		<link rel="stylesheet" href="css/stylecontact.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<script type="text/javascript" src="js/form.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="logo">
+					<img src="images/favicon.png">
+				</div>
+
+				<div id="contain" class="navigation">
+					<span class="projects" style="--i:0;--x:0;--y:0.33;"><a href="https://yoanjelloul.fr/projects"><ion-icon name="folder-open-outline"></ion-icon></a></span>
+					<span class="about" style="--i:1;--x:0;--y:-0.33;"><a href="https://yoanjelloul.fr/about"><ion-icon name="person-outline"></ion-icon></a></span>
+					<span class="contact" style="--i:2;--x:0;--y:1;"><a href="https://yoanjelloul.fr/contact"><ion-icon name="mail-outline"></ion-icon></a></span>
+					<span class="home" style="--i:3;--x:0;--y:-1;"><a href="https://yoanjelloul.fr/"><ion-icon name="home-outline"></ion-icon></a></span>
+				</div>
+
+				<script>
+						let navigation = document.querySelector('.navigation');
+						navigation.onclick = function(){
+							document.getElementById('contain').classList.toggle("active");
+						}
+				</script>
+
+			</nav>
+			
+		</header>
+
+		<section class="section">
+			<div class="block">
+				<div class="pager" data-aos="fade-left" data-aos-duration="600" data-aos-once="true" data-aos-delay="0">
+					<p>Contact</p>
+				</div>
+				<div class="paget" data-aos="fade-left" data-aos-duration="600" data-aos-once="true" data-aos-delay="200">
+					<h2>Formulaire de<br />Contact</h2>
+					<p>Pour me contacter, veuillez remplir<br /> ce formulaire de contact :</p>
+				</div>
+			</div>
+
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				<script>
+				  AOS.init({
+					duration: 3000,
+					once: false,
+				  });
+			</script>
+
+		</section>
+		<section class="form">
+			<div class="container" data-aos="flip-up" data-aos-duration="600" data-aos-once="true" data-aos-delay="200">
+				<div class="image" data-aos="fade-left" data-aos-duration="600" data-aos-once="true" data-aos-delay="500">
+					<img src="images/mails.png">
+				</div>
+
+				<div class="formc" data-aos="fade-left" data-aos-duration="600" data-aos-once="true" data-aos-delay="800">
+
+					<form action="https://formspree.io/f/xbjwyyye" method="POST" id="my-form">
+
+						<div class="form-group">
+						  <label for="firstName">Prenom</label>
+						  <input type="text" id="firstName" name="firstName" required="required">
+						</div>
+				  
+						<div class="form-group">
+						  <label for="latsName">Nom</label>
+						  <input type="text" id="lastName" name="lastName" required="required">
+						</div>
+				  
+						<div class="form-group">
+						  <label for="email">E-mail</label>
+						  <input type="email" id="email" name="email" required="required">
+						</div>
+				  
+						<div class="form-group">
+						  <label for="massage">Message</label>
+						  <textarea name="massage" id="massage" cols="50" rows="8" required="required"></textarea>
+						</div>
+
+						<div class="form-group">
+							<button type="submit">Envoyer</button>
+						</div>
+
+					  </form>
+
+				</div>
+
+			</div>
+			<div class="explain">
+				<div id="status"></div>
+				<h2 data-aos="fade-right" data-aos-duration="600" data-aos-once="true" data-aos-delay="0">Vous pouvez également</h2>
+				<div class="buttons" data-aos="fade-right" data-aos-duration="600" data-aos-once="true" data-aos-delay="0">
+					<a href="mailto:jelloulyoan@gmail.com" class="button-content"><ion-icon name="mail-outline"></ion-icon><p>Me contacter par e-mail</p></a>
+					<a href="tel:+33781737727" class="button-content"><ion-icon name="call-outline"></ion-icon><p>Me contacter par téléphone</p></a>
+					
+					<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+					<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+				</div>
+				
+			</div>
+		</section>
+		
+		
+
+		<footer>
+			<div class="columna">
+				<h4>© JELLOUL Yoan</h4>
+			</div>
+			<div class="column">
+				<h3>Me contacter</h3>
+				<a style="text-decoration:none" href="https://yoanjelloul.fr/contact"><p>yoanjelloul.fr/contact</p></a>
+				<a style="text-decoration:none" href="mailto:jelloulyoan@gmail.com"><p>jelloulyoan@gmail.com</p></a>
+				<a style="text-decoration:none" href="tel:+33781737727"><p>+33 7 81 73 77 27</p></a>
+			</div>
+			<div class="column">
+				<h3>Réseaux</h3>
+				<a style="text-decoration:none" href="https://www.linkedin.com/in/yoan-jelloul-8602a4221"><p>LinkedIn</p></a>
+				<a style="text-decoration:none" href="https://www.instagram.com/yoan.jll/"><p>Instagram</p></a>
+				<a style="text-decoration:none" href="https://yoanjelloul.fr/contact"><p>Twitter</p></a>
+			</div>
+		</footer>
+	</body>
+
+</html>

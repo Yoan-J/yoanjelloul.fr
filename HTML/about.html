@@ -1,0 +1,235 @@
+<!-- Code By Jelloul Yoan -->
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Yoan Jelloul - À Propos</title>
+		<link rel="icon" type="image/png" href="images/iconbar.png"/>
+		<link rel="stylesheet" href="css/styleabout.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="logo">
+					<img src="images/favicon.png">
+				</div>
+
+				<div id="contain" class="navigation">
+					<span class="projects" style="--i:0;--x:0;--y:0.33;"><a href="https://yoanjelloul.fr/projects"><ion-icon name="folder-open-outline"></ion-icon></a></span>
+					<span class="about" style="--i:1;--x:0;--y:-0.33;"><a href="https://yoanjelloul.fr/about"><ion-icon name="person-outline"></ion-icon></a></span>
+					<span class="contact" style="--i:2;--x:0;--y:1;"><a href="https://yoanjelloul.fr/contact"><ion-icon name="mail-outline"></ion-icon></a></span>
+					<span class="home" style="--i:3;--x:0;--y:-1;"><a href="https://yoanjelloul.fr/"><ion-icon name="home-outline"></ion-icon></a></span>
+				</div>
+
+				<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+				<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+				<script>
+						let navigation = document.querySelector('.navigation');
+						navigation.onclick = function(){
+							document.getElementById('contain').classList.toggle("active");
+						}
+				</script>
+
+			</nav>
+			
+		</header>
+		
+
+		<section class="presentation second">
+			<div class="card-name" data-aos="fade-right" data-aos-duration="900" data-aos-once="true">
+				
+				<div class="card-content" >
+
+					<div class="trait">
+
+					</div>
+					<div class="info">
+						<h2>À PROPOS DE MOI</h2>
+						<p class="news">
+						<b>Nom : </b>JELLOUL<br>
+						<b>Prenom : </b>Yoan<br>
+						<b>Age : </b>19 Ans<br>
+						<b>Nationalité : </b>Française<br>
+					</p>
+					
+					</div>
+					<div class="buttonanim">
+						<a href="doc/CV.pdf" class="button">CONSULTER LE CV</a>
+					</div>
+				</div>
+
+				
+
+			</div>
+
+		
+			<div class="card-text" data-aos="zoom-out-left" data-aos-duration="900" data-aos-once="true">
+				<div class="circle"></div>
+				<div class="text-content">
+					<h2>Biographie</h2>
+					<p>
+						Je m'appelle Jelloul Yoan, 19 ans. J'ai toujours été passionné d'informatique; particulièrement dans la création (Application, Site Web...)
+						<br><br>
+						Dès mes 13/14 ans, j'avais déjà réalisé des applications type executables (.EXE) en Visual Basic (vb.net) et un site internet réalisé avec WordPress.
+						<br><br>
+						Depuis le temps, j'ai réalisé plusieurs sites web en quête d'apprentissage du [HTML / CSS / Js] tout en laissant tomber Visual Basic pour apprendre le C/C++ du côté des applications.
+						<br><br>
+						Ayant beaucoup de projets pour l'avenir, j'ai créé ce site en vue de portfolio & Blog personnel. Vous trouverez ci-contre mon CV avec plus d'informations me concernant.
+					</p>
+				</div>
+				<img src="images/cartoon.png">
+			</div>
+			
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				<script>
+				  AOS.init({
+					duration: 3000,
+					once: true,
+				  });
+			</script>
+
+		</section>
+		
+		<section class="spacer" data-aos="fade-down" data-aos-duration="900" data-aos-once="true" data-aos-delay="600">
+			<div class="spacebar">
+
+			</div>
+			<div class="logoz">
+				<ion-icon name="chevron-down-outline"></ion-icon>
+			</div>
+			<div class="spacebar">
+
+			</div>
+
+			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				<script>
+				  AOS.init({
+					duration: 3000,
+					once: false,
+				  });
+			</script>
+
+		</section>
+		
+		<section class="presentation tres" data-aos="fade-right" data-aos-duration="900" data-aos-once="true" data-aos-delay="200">
+			<div class="product-detail" > 
+				<h2>À PROPOS DU SITE</h2>
+				<p>
+					Ce site à été créé de <b><font color="#7124b9" size="7">A</font> à <font color="#A9248C" size="7">Z</font></b><br> à la main par <b>JELLOUL  Yoan</b>
+				</p>
+			</div>
+		</section>
+		<section class="codes" data-aos="zoom-in" data-aos-duration="900" data-aos-once="true" data-aos-delay="600">
+			<div class="box" data-aos="flip-down" data-aos-duration="900" data-aos-once="true" data-aos-delay="600">
+				<h3>
+					Codes HTML/CSS
+				</h3>
+
+				<a href="https://github.com/Yoan-J/yoanjelloul.fr/blob/25e589d5306ad36287f80a7b7eafd45d2ad8cd8a/HTML/index.html" target="_blank">
+					<div class="list">
+						<div class="imgBxx">
+							<img src="images/icons/home.png">
+						</div>
+						<div class="content">
+							<h2 class ="rank"><small>#</small>HTML</h2>
+							<h4>Page d'accueil HTML</h4>
+							<p>yoanjelloul.fr</p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://github.com/Yoan-J/yoanjelloul.fr/blob/25e589d5306ad36287f80a7b7eafd45d2ad8cd8a/HTML/about.html" target="_blank">
+					<div class="list">
+						<div class="imgBxx">
+							<img src="images/icons/about.png">
+						</div>
+						<div class="content">
+							<h2 class ="rank"><small>#</small>HTML</h2>
+							<h4>À Propos HTML</h4>
+							<p>yoanjelloul.fr/about</p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://github.com/Yoan-J/yoanjelloul.fr/blob/25e589d5306ad36287f80a7b7eafd45d2ad8cd8a/HTML/projects.html" target="_blank">
+					<div class="list">
+						<div class="imgBxx">
+							<img src="images/icons/projects.png">
+						</div>
+						<div class="content">
+							<h2 class ="rank"><small>#</small>HTML</h2>
+							<h4>Projets HTML</h4>
+							<p>yoanjelloul.fr/projects</p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://github.com/Yoan-J/yoanjelloul.fr/blob/25e589d5306ad36287f80a7b7eafd45d2ad8cd8a/HTML/contact.html" target="_blank">
+					<div class="list">
+						<div class="imgBxx">
+							<img src="images/icons/contact.png">
+						</div>
+						<div class="content">
+							<h2 class ="rank"><small>#</small>HTML</h2>
+							<h4>Contact HTML</h4>
+							<p>yoanjelloul.fr/contact</p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://github.com/Yoan-J/yoanjelloul.fr/blob/25e589d5306ad36287f80a7b7eafd45d2ad8cd8a/CSS/style.css" target="_blank">
+					<div class="list">
+						<div class="imgBxx">
+							<img src="images/icons/home.png">
+						</div>
+						<div class="content">
+							<h2 class ="rank"><small>#</small>CSS</h2>
+							<h4>Page d'accueil CSS</h4>
+							<p>yoanjelloul.fr</p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://yoanjelloul.fr/sources">
+					<div class="list">
+						<div class="imgBxx">
+							<img src="images/icons/others.png">
+						</div>
+						<div class="content">
+							<h2 class ="rank"><small>#</small>HTML/CSS/JS</h2>
+							<h4>Voir Tout</h4>
+							<p>yoanjelloul.fr/...</p>
+						</div>
+					</div>
+				</a>
+
+			</div>
+		</section>
+
+		<footer>
+			<div class="columna">
+				<h4>© JELLOUL Yoan</h4>
+			</div>
+			<div class="column">
+				<h3>Me contacter</h3>
+				<a style="text-decoration:none" href="https://yoanjelloul.fr/contact"><p>yoanjelloul.fr/contact</p></a>
+				<a style="text-decoration:none" href="mailto:jelloulyoan@gmail.com"><p>jelloulyoan@gmail.com</p></a>
+				<a style="text-decoration:none" href="tel:+33781737727"><p>+33 7 81 73 77 27</p></a>
+			</div>
+			<div class="column">
+				<h3>Réseaux</h3>
+				<a style="text-decoration:none" href="https://www.linkedin.com/in/yoan-jelloul-8602a4221"><p>LinkedIn</p></a>
+				<a style="text-decoration:none" href="https://www.instagram.com/yoan.jll/"><p>Instagram</p></a>
+				<a style="text-decoration:none" href="https://yoanjelloul.fr/contact"><p>Twitter</p></a>
+			</div>
+		</footer>
+	</body>
+
+</html>
